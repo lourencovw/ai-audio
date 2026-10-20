@@ -1,0 +1,5 @@
+# Build output -- fully regenerable via tools\build.ps1 and
+# tools\build-obs-plugin.ps1. Also contains a nested git clone
+# (build/obs-sdk/obs-studio-src) used only to fetch matching libobs
+# headers for compiling the OBS plugin; it must not be tracked here.
+build/
